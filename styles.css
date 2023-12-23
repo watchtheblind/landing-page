@@ -4,6 +4,7 @@ body{
    }
 nav{
     display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
     justify-content: space-between;
     background-color: #0b3075;
@@ -22,8 +23,8 @@ ul{
 ul li {
     padding-left: .2cm;
   }
-.op{
-    display: flex;
+.logo{
+    flex: 1;
     max-width: 10%;
     margin-left: 3%;
     padding: .7%;
@@ -32,9 +33,37 @@ a.link{
     text-decoration: none;
     color: azure;
 }
-/* .container{
+.container{
     display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+.info{
+    margin-top: 40px;
+    position: absolute;
+    width: 20cm;
     border: 4px;
     border-style: dashed;
-
-} */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+.one{
+    border: 4px;
+    border-style: dotted;
+    flex: 0 0 50%; /* Ancho del segundo elemento */
+}
+.two{
+    border: 4px;
+    border-style: dotted;
+    display: flex;
+    flex: 0 0 48%; /* Ancho del segundo elemento */
+}
+.one h1{
+    text-align: center;
+    border: 4px;
+    border-style: dotted;
+}
