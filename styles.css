@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    font-family: 'Sen', sans-serif;
+   }
+nav{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #0b3075;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: '🌊';
+    align-items: center;
+    justify-content: space-around;
+    font-size: .5cm;
+    width: 45%;
+    gap: 1.5cm;
+    margin-right: 5%;
+}
+ul li {
+    padding-left: .2cm;
+  }
+.op{
+    display: flex;
+    max-width: 10%;
+    margin-left: 3%;
+    padding: .7%;
+}
+a.link{
+    text-decoration: none;
+    color: azure;
+}
+/* .container{
+    display: flex;
+    border: 4px;
+    border-style: dashed;
+
+} */
