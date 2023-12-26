@@ -1,16 +1,20 @@
 body{
     margin: 0px;
     font-family: 'Sen', sans-serif;
+    background-image: url(images/merry.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
    }
-nav{
+nav,ul,.container,.info,.two,.image,.buttons,.cr-bot,.desc{
     display: flex;
+}
+nav{
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: space-between;
-    background-color: #0b3075;
+    background-color: rgb(11, 48, 117, .85)
 }
 ul{
-    display: flex;
     flex-direction: row;
     list-style-type: '🌊';
     align-items: center;
@@ -34,36 +38,59 @@ a.link{
     color: azure;
 }
 .container{
-    display: flex;
     justify-content: center;
 }
 img{
     max-width: 100%;
 }
 .info{
-    margin-top: 40px;
+    margin-top: 3cm;
     position: absolute;
-    width: 20cm;
-    border: 4px;
-    border-style: dashed;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: stretch;
+    width: 90%;
+    background-color: rgb(16, 94, 221,.8);
+    border-radius: 20PX;
 }
 .one{
-    border: 4px;
-    border-style: dotted;
     flex: 0 0 50%; /* Ancho del segundo elemento */
+    padding: 3%;
 }
 .two{
-    border: 4px;
-    border-style: dotted;
-    display: flex;
-    flex: 0 0 48%; /* Ancho del segundo elemento */
+    flex: 1;
+    padding: 3%;
 }
 .one h1{
     text-align: center;
+    color: white;
+}
+.one p{
+    text-align: justify;
+    font-size: 0.5cm;
+    color: white;
+}
+.image{
+    background-image: url(/images/straw-hats.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cr-bot{
+    justify-content: center;
+    padding-top: 1.5%;
+}
+
+.char{
+    margin: 3%;
+    width: 4cm;
+    height: 4cm;
     border: 4px;
-    border-style: dotted;
+    border-radius: 4px;
+    border-color: blue;
+    border-style: dashed;
+}
+.characters{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
