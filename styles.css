@@ -40,10 +40,11 @@ a.link{
 .container{
     justify-content: center;
 }
-img{
+.bg-img{
     max-width: 100%;
 }
 .info{
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
     margin-top: 3cm;
     position: absolute;
     width: 90%;
@@ -68,10 +69,13 @@ img{
     color: white;
 }
 .image{
+    margin-top: 5%;
     background-image: url(/images/straw-hats.jpg);
-    width: 100%;
-    background-size: 100% 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 
 .cr-bot{
@@ -105,8 +109,75 @@ img{
     text-shadow: 1cm black;
     padding-top: 1.5%;
 }
-.container-two{
+#container-two{
     margin-top: -3%;
     background-color: #0b3075;
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
+}
+.container-three{
+    background-size: cover;
+    display: flex;
+    flex-shrink: 3;
+    justify-content: center;
+    font-family: 'Slabo 27px', serif;
+}
+.container-four{
+    background-color: #0f2b61;
+    position: absolute;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#container-two,.container-four{
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.banner{
+    margin: auto;
+    display: flex;
+    background-color: #105edd;
+    width: 85%;
+    border-radius: 10px;
+}
+.banner-text{
+    flex: 0 0 70%;
+    padding: 2%;
+    font-size: .5cm;
+    text-align: justify;
+    color: wheat;
+    font-weight: bold;
+}
+.banner-text p{
+    width: 95%;
+}
+.banner-button{
+    flex: 0 0 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.quote{
+    padding: 5%;
+    border-radius: 20px;
+    width: 78%;
+    position: absolute;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
+    color: white;
+    font-size: 1.4cm;
+}
+a img{
+    max-width: 100%;
+}
+.credits{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.credits a{
+    color: white;
 }
