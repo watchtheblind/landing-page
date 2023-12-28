@@ -70,7 +70,7 @@ a.link{
 }
 .image{
     margin-top: 5%;
-    background-image: url(/images/straw-hats.jpg);
+    background-image: url(images/straw-hats.jpg);
     flex-shrink: 1;
     flex-grow: 1;
     background-size: 100%;
